@@ -385,8 +385,7 @@ h6 {
 }
 
 section {
-    height: 100vh;
-    scroll-snap-align: center;
+    min-height: 100vh;
     overflow: visible;
     position: relative;
     background: var(--background-color);
@@ -394,10 +393,7 @@ section {
 }
 
 .main-content {
-    height: 100vh;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    overflow-y: scroll;
+    min-height: 100vh;
     overflow-x: hidden;
 }
 
